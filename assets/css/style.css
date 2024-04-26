@@ -187,7 +187,7 @@ a {
 /* =================== Hero right =========================== */
 .hero .media-block .media {
   width: 576px;
-  /* height: 631px; */
+  height: 631px;
   flex-shrink: 0;
   margin-left: 136px;
   margin-top: 62px;
@@ -588,4 +588,33 @@ a {
 
 .wrap-content a {
   color: #000;
+}
+/* =================== Flower =========================== */
+.flow {
+  margin-top: 81px;
+}
+
+.flow .flow-list {
+  display: flex;
+  width: 862px;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.flow .flow-list .number {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flow .flow-list .desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
 }
