@@ -804,7 +804,7 @@ img {
 }
 
 .join .join--left .desc {
-  margin-top: 18px;
+  margin-top: 50px;
   width: 379px;
   color: #767e7e;
   font-size: 1.8rem;
@@ -828,4 +828,116 @@ img {
   border-radius: 14px;
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.join--left {
+  margin-bottom: 38px;
+}
+
+/* =============== Footer ==================== */
+.footer {
+  /* width: 1440px;
+  height: 494px; */
+  flex-shrink: 0;
+  background-color: #fff;
+  padding: 131px 0 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* max-width: 1170px; */
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .row .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer .column .column-list {
+  color: #535353;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer .column .column-list a {
+  text-decoration: none;
+  color: #535353;
+}
+
+.footer .body .column-list li {
+  margin-top: 18px;
+}
+
+/* img.footer--logo {
+  margin-left: 170px;
+} */
+
+.colum .column-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+ul.column-list {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.footer .item--last a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .content--block .copyright {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .column-list li:first-child {
+  margin-top: 26px;
+}
+
+.footer .main-contain {
+
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+
 }
