@@ -41,6 +41,11 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
+img {
+  outline: none !important;
+}
+
 /* =============== Header ==================== */
 .header {
   background: #fff;
@@ -592,6 +597,7 @@ a {
 /* =================== Flower =========================== */
 .flow {
   margin-top: 81px;
+  margin-bottom: 130px;
 }
 
 .flow .flow-list {
@@ -617,4 +623,209 @@ a {
   text-align: center;
   font-size: 1.8rem;
   line-height: normal;
+}
+/* =================== Feedback =========================== */
+.feedback .body {
+  padding: 80px 10px;
+  position: relative;
+}
+
+.feedback .body .blockquote-icon {
+  width: 36px;
+  height: 29px;
+  flex-shrink: 0;
+  fill: #070707;
+  margin-bottom: 27px;
+}
+
+.feedback .body .comment {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 48px; /* 150% */
+  width: 419px;
+  margin-bottom: 33px;
+}
+
+.feedback .body .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback .body .desc::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback .body .desc {
+  color: #767e7e;
+  font-size: 1.6rem;
+  margin-bottom: 52px;
+  display: inline-block;
+}
+
+.feedback .cta-btn .cta-btn-icon {
+  border-radius: 50px;
+  background: #2ac9bf;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.cta-btn .btn--next,
+.cta-btn .btn--prev {
+  width: 10px;
+  height: 48px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cta-icon {
+  display: flex;
+  gap: 30px;
+}
+
+.feedback .cta-btn .cta-btn-icon:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+
+.feedback .avt--member {
+  position: absolute;
+}
+
+.avt--member .avt--member1 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  top: -519px;
+  left: 515px;
+}
+
+.avt--member .avt--member2 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -300px;
+  left: 490px;
+}
+
+.avt--member .avt--member3 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 235px;
+  height: 235px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -436px;
+  left: 654px;
+}
+
+.avt--member .avt--member4 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -148px;
+  left: 738px;
+}
+
+.avt--member .avt--member5 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -255px;
+  left: 952px;
+}
+
+.avt--member .avt--member6 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -537px;
+  left: 921px;
+}
+
+img {
+  outline: none;
+}
+
+/* =============== Join Activities  ==================== */
+.join {
+  margin-top: 130px;
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.join .sub--title {
+  width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-top: 76px;
+  line-height: 1.33;
+}
+
+.join .join--left .desc {
+  margin-top: 18px;
+  width: 379px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  margin-right: 410px;
+}
+
+.join .body {
+  display: flex;
+  align-items: center;
+}
+
+.join .join--right .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 41px;
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
